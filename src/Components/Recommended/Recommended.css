@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.recommended{
+    flex-basis: 38%;
+}
+.side-videolist{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.side-videolist img{
+    flex-basis: 50%;
+    width: 50%;
+    border-radius: 8px;
+}
+.vid-info{
+    flex-basis: 55%;
+    margin-left: 3px;
+}
+.vid-info h4{
+font-size: 13px;
+margin-bottom: 5px;
+}
+@media(max-width:900px){
+    .recommended{
+        flex-basis: 100%;
+    }
+}
